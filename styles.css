@@ -1,0 +1,541 @@
+* {
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+   
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    /* position: relative; */
+    /* max-width: 1305px; */
+}
+.container {
+    background: red;
+}
+
+/* HEADER */
+.header {
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(200, 229, 253, 0.5);
+}
+
+.logo p{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #5fa1df;
+}
+
+.navbar{
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7); 
+}
+
+.end{
+    display: flex;
+}
+
+.end button {
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.end button a{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.end .login{
+    background: none;
+}
+
+.end .login a{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+
+.end .signup{
+    background: black;
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+
+.end .signup a{
+    color: white;
+}
+
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    background: #5C94C3;
+    padding: 0 200px;
+}
+
+.hero-text{
+    /* flex: 1; */
+   margin: 120px 0;
+}
+
+.hero-text h1 {
+    font-size: 35px;
+    margin: 20px 0;
+    line-height: 1.3;
+}
+
+.hero-text p {
+    line-height: 1.9;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.hero-text button {
+    background: none;
+    outline: none;
+    border: none;
+    margin: 10px;
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    padding: 0 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.hero-text button a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-text button:hover {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.hero-text button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-img {
+    background: red;
+}
+
+.hero-img img {
+    width: 100%;
+    margin-top: 100px;
+    height: 70%;
+}
+
+/* Global Section */
+.global {
+    display: flex;
+    padding: 80px 200px;
+}
+
+.global-text {
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.global-text h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.global-text p {
+    line-height: 2.0;
+    font-weight: 350;
+    margin-bottom: 20px;
+}
+
+.global-text button {
+    background: none;
+    outline: none;
+    border: none;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.global-text button a {
+    text-decoration: none;
+    color: black;
+}
+
+.global-text button :hover {
+    background: #5C94C3;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.global-text button a :hover {
+    text-decoration: none;
+    color: white;
+}
+
+.global-writeup {
+    display: flex;
+    flex-direction: column;
+}
+
+.writeup1 {
+    background: rgba(199, 198, 198, 0.4);
+    margin-bottom: 10px;
+    padding: 17px;
+}
+
+.writeup1 h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.writeup1 p {
+    line-height: 1.4;
+}
+
+/* Our Services */
+.our-services {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+}
+
+.our-services h2 {
+    margin: 0 auto 60px auto;
+    font-size: 38px;
+}
+
+.service-box {
+    display: flex;
+    /* padding: 80px auto; */
+    /* justify-content: space-between; */
+}
+
+.services {
+    background: rgba(199, 198, 198, 0.4);
+    margin-right: 12px;
+    padding: 15px;
+    flex: 1;
+}
+
+.services:first-child {
+    background: rgba(92, 148, 195, 0.4);
+}
+
+.services i {
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.services h3 {
+    margin-bottom: 10px;
+}
+
+.services p {
+    line-height: 1.5;
+}
+
+.our-services button {
+    background: black;
+    outline: none;
+    border: none;
+    margin: 60px auto 0 auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.our-services button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.our-services button:hover {
+    background: #fff;
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
+    padding: 15px 20px;
+    /* border-radius: 15px; */
+    transition: all 0.65s;
+    
+}
+
+.our-services button a:hover {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Latest Section */
+.latest {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+}
+
+.latest h2 {
+    margin: 0 auto 60px auto;
+    font-size: 38px;
+}
+
+.latest-photocard {
+    display: flex;
+}
+
+.photocard1 {
+    flex: 1;
+    background: rgba(199, 198, 198, 0.4);
+    margin-bottom: 10px;
+    /* padding: 17px; */
+    margin-right: 13px;
+}
+
+.photocard1 img {
+    width: 315px;
+    height: 150px;
+    padding: 0;
+}
+
+.photocard1 h4 {
+    padding: 17px 17px 5px 17px;
+}
+
+.photocard1 p {
+    padding: 10px 17px 5px 17px ;
+}
+
+.photocard1 button{
+    padding: 12px;
+    margin: 10px 17px;
+    border: none;
+    outline: none;
+    /* border-bottom: 3px dotted black; */
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.photocard1 button a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.photocard1 button:hover {
+    background: rgba(200, 229, 253, 0.4);
+    
+}
+
+.latest-button {
+    margin: 20px auto;
+    background: #5fa1df;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.latest-button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.latest-button:hover {
+    padding: 12px;
+}
+
+/* Testimonials */
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+}
+
+.testimonials h2 {
+    margin: 0 auto 60px auto;
+    font-size: 38px;
+}
+.test-card{
+    display: flex;
+}
+
+.textbox {
+    margin-right: 12px;
+    padding: 10px;
+    background: rgba(199, 198, 198, 0.4);
+}
+
+.imagebox {
+    display: flex;
+    background: rgba(200, 229, 253, 0.7);
+}
+
+.imagebox img {
+    width: 70px;
+    height: 70px;
+    zoom: 130%;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.imagebox h4 {
+    margin: 10px 0 5px 0;
+}
+
+.imagebox p {
+    font-size: 13px;
+}
+
+.testimonial {
+    margin-top: 9px;
+}
+
+.testimonial h4 {
+    font-weight: 600;
+    /* font-size: ; */
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 13px;
+}
+
+/* Shipment */
+.shipment {
+    display: flex;
+    padding: 80px 200px;
+}
+
+.figures {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    background: rgba(199, 198, 198, 0.4);
+    /* align-content: space-around; */
+}
+
+.figure-box {
+    margin: 30px;
+    padding-left: 20px;
+}
+
+.figure-box h3 {
+    font-size: 25px;
+}
+
+.booking {
+    flex: 2.8;
+    justify-content: center;
+    align-items: center;
+    background: rgba(56, 180, 160, 0.7);
+}
+
+.booking h3{
+    text-align: center;
+    margin: 40px;
+    line-height: 1.2;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.booking p {
+    text-align: center;
+    padding: 0 130px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.booking button {
+    margin: 0 246px;
+    /* margin: 0 auto; */
+    padding: 7px 28px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: white;
+}
+
+.booking button a {
+    color: rgba(56, 180, 160, 0.7);
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    background: rgba(199, 198, 198, 0.4);
+    justify-content: space-around;
+    padding: 20px 80px;
+}
+
+.pricing {
+    padding: 20px;
+}
+
+.pricing h3 {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.pricing ul {
+    list-style: none;
+}
+
+.pricing ul li {
+    margin-bottom: 5px;
+    text-align: justify;
+    margin-left: -40px;
+}
+
+.pricing ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: start;
+}
+
+
+/* Media Query */
+@media (max-width: 1031) {
+    .main {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .global-writeup {
+        display: flex;
+    }
+}
