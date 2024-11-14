@@ -95,7 +95,7 @@ body {
 }
 
 .hero-text{
-    /* flex: 1; */
+    flex: 1;
    margin: 120px 0;
 }
 
@@ -142,6 +142,7 @@ body {
 }
 
 .hero-img {
+    flex: 1 ;
 }
 
 .hero-img img {
@@ -311,17 +312,19 @@ body {
 }
 
 .photocard1 {
-    /* flex: 1; */
+    flex: 1;
     background: rgba(199, 198, 198, 0.4);
     margin-bottom: 10px;
     /* padding: 17px; */
     margin-right: 13px;
+    /* object-fit: contain; */
 }
 
 .photocard1 img {
-    width: 315px;
-    height: 150px;
+    width: 100%;
+    height: 170px;
     padding: 0;
+    /* object-fit: cover; */
 }
 
 .photocard1 h4 {
@@ -391,6 +394,7 @@ body {
 }
 
 .textbox {
+    flex: 1;
     margin-right: 12px;
     padding: 10px;
     background: rgba(199, 198, 198, 0.4);
